@@ -1,0 +1,88 @@
+/*
+// Primeira questão
+let nome:  string = "Almir"
+let idade: Number = "29"
+let cidade: string = "Recife"
+let estuda: string = "Sim"
+console.log(`Seu nome é: ${nome}\n mora em ${cidade}\n tem ${idade}\n e estuda? ${estuda}\n`)
+*/
+
+
+
+/*
+//Segunda questão
+var altura = Number(prompt("Qual a altura?"))
+var largura =Number(prompt("Qual a largura?"))
+var area = altura * largura
+console.log(`A area total é ${area}`)
+*/
+
+
+/*
+//Terceira questão
+var raio = Number(prompt("Qual o raio?"))
+var area:Number = 3.14*(raio**2)
+console.log(`A area é: ${area}`)
+*/
+
+
+/*
+//Quarta questão
+let temperatura:Number = 15
+console.log(`A temperatura em Fahrenheit é: ${temperatura*1.8+32}`)
+*/
+
+
+/*
+//Quinta questão
+let numero =Number(prompt("Escolha um número"))
+let antes = numero-1
+let depois = numero+1
+console.log(`O numero é ${numero}, antes dele vem o ${antes} e após vem o ${depois}`)
+*/
+
+
+/*
+//Sexta questão
+let numero =Number(prompt("Escolha um número"))
+console.log(`O número escolhido é: ${numero} seu dobro é ${numero*2}, seu triplo é ${numero*3} e a raiz quadrada é ${numero**0.5}`)
+*/
+
+/*
+//Setima questão
+let nota1 =Number(prompt("Digite a nota 1"))
+let nota2 =Number(prompt("Digite a nota 2"))
+let nota3 =Number(prompt("Digite a nota 3"))
+let soma = nota1+nota2+nota3
+let media = soma/3
+console.log(`A média é: ${media}`)
+*/
+
+
+/*
+//Oitava questão
+let a: number = 5;
+let b: number = 10;
+console.log(`Antes da troca: a = ${a}, b = ${b}`);
+let temp = a;
+a = b;
+b = temp;
+console.log(`Depois da troca: a = ${a}, b = ${b}`);
+*/
+
+
+//Nona questão
+let numero1 =Number(prompt("Escolha um número"))
+let numero2 =Number(prompt("Escolha outro número"))
+
+
+if (numero1 > numero2){
+console.log("O primeiro número é maior que o segundo")
+}
+else if(numero1 < numero2 )
+{
+console.log ("O segundo número é maior que o primeiro")
+}
+else {
+("Os numeros são iguais")
+}
